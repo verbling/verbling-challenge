@@ -82,12 +82,13 @@ The Jedi Master requested you to make a dashboard-like UI showing a list of Sith
 - Place all your client-side code in that repository, must include `index.html` in your submission folder.
 - Run the server like this: `cd server` then `npm install` (just once) then `npm start`.
 - Remember to use `styles.css` in your `index.html` solution.
+- To build the Javascript bundle, use `webpack`. (`webpack --watch` to watch files)
 - When you are done, please contact us with link to your repo, preferably on GitHub.
 
 
 ### Criteria
 
-- Must be React
+- Must be React. We use ES6 features, but you are free not to.
 - Preferably a Flux-like architecture, but if you feel like you can use anything
 - Must solve the requirements listed above
 - As elegant code as possible
