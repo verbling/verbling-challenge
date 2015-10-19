@@ -84,6 +84,7 @@ The Jedi Master requested you to make a dashboard-like UI showing a list of Sith
 - Remember to use `styles.css` in your `index.html` solution.
 - To build the Javascript bundle, use `webpack`. (`webpack --watch` to watch files)
 - When you are done, please contact us with link to your repo, preferably on GitHub.
+- Please do not copy or plagiarize other submissions, it's easy to spot.
 
 
 ### Criteria
