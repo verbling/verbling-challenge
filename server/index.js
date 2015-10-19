@@ -96,7 +96,7 @@ wss.on('connection', function connection(ws) {
     if (typeof timeout !== 'undefined') {
       clearTimeout(timeout);
     }
-    var delay = Math.floor(Math.random()*5000) + 500;
+    var delay = Math.floor(Math.random() * 5000) + 500;
     timeout = setTimeout(function () {
       sendRandomWorld();
       resetTimeout();

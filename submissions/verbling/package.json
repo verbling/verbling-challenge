@@ -1,0 +1,16 @@
+{
+  "name": "flux-challenge-verbling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
