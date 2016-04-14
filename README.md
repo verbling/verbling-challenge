@@ -1,4 +1,4 @@
-# Verbling React Challenge Challenge
+# Verbling React Challenge
 
 ![](docs/spec.png)
 
@@ -10,12 +10,12 @@ App is simple scrollable and searchable list where list items can be expanded.
 - "Add" button prompts for input (can use window.prompt) and adds a list item to the top of the list
 - List items are 50px in height when closed, and any height when opened (so that content fits).
 - When list item is closed, text within should be ellipsed.
-- Search bar should search show a subset of the list that matches the search string anywhere in it's contents.
-- List item can be clicked, which toggles it's open/closed state.
+- Search bar should show a subset of the list that matches the search string anywhere in it's contents.
+- List item can be clicked, which toggles its open/closed state.
 - "Open all" button opens all list items
 - "Close all" button closes all list items
 - "Toggle all" button toggles the open state of all items.
-- Structure data layer and viewer layers as you think fits the challenge
+- Structure data layer and view layers as you think fits the challenge
 
 ### Submission
 
