@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Andre Staltz <andre+npm@staltz.com> (http://andre.staltz.com/)",
+  "author": "Verbling",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
-    "express": "^4.13.3",
-    "ws": "^0.8.0"
-  }
+    "express": "^4.13.3"
+  },
+  "description": "Verblign Challenge",
+  "repository": "https://github.com/verbling/verbling-challenge"
 }

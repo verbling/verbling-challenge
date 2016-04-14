@@ -4,14 +4,14 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'eval',
   entry: [
-    './src/index',
+    './src/index'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'index.js',
+    filename: 'index.js'
   },
   plugins: [
-    new webpack.NoErrorsPlugin(),
+    new webpack.NoErrorsPlugin()
   ],
   module: {
       loaders: [
@@ -19,7 +19,7 @@ module.exports = {
           test: /.jsx?$/,
           loader: 'babel-loader',
           exclude: /node_modules/,
-        },
-      ],
-    },
+        }
+      ]
+    }
 };

@@ -10,7 +10,7 @@ App is simple scrollable and searchable list where list items can be expanded.
 - "Add" button prompts for input (can use window.prompt) and adds a list item to the top of the list
 - List items are 50px in height when closed, and any height when opened (so that content fits).
 - When list item is closed, text within should be ellipsed.
-- Search bar should show a subset of the list that matches the search string anywhere in it's contents.
+- Search bar should show a subset of the list that matches the search string anywhere in it's contents (case insensitive).
 - List item can be clicked, which toggles its open/closed state.
 - "Open all" button opens all list items
 - "Close all" button closes all list items
@@ -23,7 +23,7 @@ App is simple scrollable and searchable list where list items can be expanded.
 - Place all your client-side code in that repository, must include `index.html` in your submission folder.
 - Comments are encouraged but don't overdo it, simple code speaks for itself.
 - Feel free to use any packages you want, just make sure they're installed via `npm install`.
-- Run the server like this: `cd server` then `npm install` (just once) then `npm start`.3
+- Run the server like this: `cd server` then `npm install` (just once) then `npm start`
 - Remember to use `styles.css` in your `index.html` solution.
 - To build the Javascript bundle, use `webpack`. (`webpack --watch` to watch files)
 - When you are done, please contact us with link to your repo, preferably on GitHub.
