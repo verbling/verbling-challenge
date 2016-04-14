@@ -4,36 +4,36 @@
 
 ### Requirements
 
-App is simple scrollable and searchable list where list items can be expanded.
+Create a simple scrollable/searchable list where list items can be expanded or collapsed.
 
-- Item area is a scrollable area with fixed 200px width and 400px height
-- "Add" button prompts for input (can use window.prompt) and adds a list item to the top of the list
-- List items are 50px in height when closed, and any height when opened (so that content fits).
-- When list item is closed, text within should be ellipsed.
-- Search bar should show a subset of the list that matches the search string anywhere in it's contents (case insensitive).
-- List item can be clicked, which toggles its open/closed state.
-- "Open all" button opens all list items
-- "Close all" button closes all list items
-- "Toggle all" button toggles the open state of all items.
-- Structure data layer and view layers as you think fits the challenge
+- Item area should be a scrollable area with a fixed width of 200px and a height of 200px
+- Should include an "Add" button that prompts for user input (can use window.prompt) and adds a new list item to the top of the list
+- List items should have a height of 50px when closed, and a variable height that fits to item content when expanded
+- When a list item is closed, the contained text should be truncated with an ellipsis (ex: Truncat...)
+- The search bar should suggest a filtered subset of the availabile list items that match the search string in the title or the list item body
+- List items should be clickable, toggling a list item's expanded/collapsed state.
+- "Expand all" button should expand all list items
+- "Collapse all" button should collapse all list items
+- "Toggle all" button should toggle the expanded/collapsed state of all items.
+- Data and View layers should be organized and efficient in structure to efficiently meet the needs of the app
 
-### Submission
+### Submission Instructions
 
-- Edit `client/` with your code
-- Place all your client-side code in that repository, must include `index.html` in your submission folder.
-- Comments are encouraged but don't overdo it, simple code speaks for itself.
-- Feel free to use any packages you want, just make sure they're installed via `npm install`.
-- You don't need to run a server, but if you like we set it up for you. Run the server like this: `cd server` then `npm install` (just once) then `npm start`. Should be able to access server at `localhost:3000`
-- Remember to use `styles.css` in your `index.html` solution.
-- To build the Javascript bundle, use `webpack`. (`webpack --watch` to watch files)
+- Fork this repository to your github account and push your changes - this is where we'll view your submission.
+- Fufill requirements by modifying files with your code in `client/`.
+- Comments are encouraged but don't overdo it, effective, simple code speaks for itself.
+- Feel free to use any packages or libraries that help you complete these tasks, just make sure they're installed via `npm install` and saved to your `package.json`.
+- You don't need to run a server, but if you would like to, we have provided a simple one for you. Run the server by running `npm install && npm start` in the `server/` directory. You should then be able to access the server at `localhost:3000`
+- Please place styles in `styles.css` as it is referenced in `index.html`.
+- To build the Javascript bundle, use `webpack`. (use `webpack --watch` to watch files for rebundling on file change).
 - When you are done, please contact us with link to your repo, preferably on GitHub.
 - Please do not copy or plagiarize other submissions, it's easy to spot.
 - Contact us at `team@verbling.com` if you have any questions.
 
 ### Criteria
 
-- Must be React. We use ES6 features, but you are free not to.
-- Must solve the requirements listed above
-- As elegant code as possible
+- Must use React. We use ES6 features at Verbling, but you are free not to.
+- Must fulfill the requirements listed above
+- Keep as elegant code as possible
 
 **Elegance** here is not a subjective criteria. Let's define code elegance to be "*the ability of a programmer to easily understand the program's flow and state coordination, being completely familiar with the tools used but completely unfamiliar with the codebase*". Special attention is given to "familiar with the tools" and "unfamiliar with the codebase". This means if I know nothing about ClojureScript, a ClojureScript solution to this problem might still be very elegant to an experienced ClojureScript developer. On the other hand, unfamiliarity with the codebase is important to determine that, because usually as you grow familiar with a codebase, you find it easier to understand how it works. **Our objective is to make it easy for a peer programmer to join a codebase and quickly understand how it works.**
