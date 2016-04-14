@@ -9,7 +9,7 @@ App is simple scrollable and searchable list where list items can be expanded.
 - Item area is a scrollable area with fixed 200px width and 400px height
 - "Add" button prompts for input (can use window.prompt) and adds a list item to the top of the list
 - List items are 50px in height when closed, and any height when opened (so that content fits).
-- When list item is closed, text within should be eclipsed.
+- When list item is closed, text within should be ellipsed.
 - Search bar should search show a subset of the list that matches the search string anywhere in it's contents.
 - List item can be clicked, which toggles it's open/closed state.
 - "Open all" button opens all list items
