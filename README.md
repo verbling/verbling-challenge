@@ -28,7 +28,6 @@ Create a simple scrollable/searchable list where list items can be expanded and 
 - To build the Javascript bundle, use `webpack`. (use `webpack --watch` to watch files for re-bundle on file change).
 - When you are done, please contact us with a link to your forked repo, preferably on GitHub.
 - Please do not copy or plagiarize other submissions, it's easy to spot.
-- Contact us at `team@verbling.com` if you have any questions.
 
 ### Criteria
 
