@@ -1,5 +1,5 @@
 {
-  "name": "flux-challenge-server",
+  "name": "verbling-challengeq-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,6 @@
     "body-parser": "^1.14.1",
     "express": "^4.13.3"
   },
-  "description": "Verblign Challenge",
+  "description": "Verbling Challenge",
   "repository": "https://github.com/verbling/verbling-challenge"
 }

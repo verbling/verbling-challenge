@@ -19,15 +19,16 @@ App is simple scrollable and searchable list where list items can be expanded.
 
 ### Submission
 
-- Edit `submission/verbling/` with your code
+- Edit `client/` with your code
 - Place all your client-side code in that repository, must include `index.html` in your submission folder.
 - Comments are encouraged but don't overdo it, simple code speaks for itself.
 - Feel free to use any packages you want, just make sure they're installed via `npm install`.
-- Run the server like this: `cd server` then `npm install` (just once) then `npm start`
+- You don't need to run a server, but if you like we set it up for you. Run the server like this: `cd server` then `npm install` (just once) then `npm start`. Should be able to access server at `localhost:3000`
 - Remember to use `styles.css` in your `index.html` solution.
 - To build the Javascript bundle, use `webpack`. (`webpack --watch` to watch files)
 - When you are done, please contact us with link to your repo, preferably on GitHub.
 - Please do not copy or plagiarize other submissions, it's easy to spot.
+- Contact us at `team@verbling.com` if you have any questions.
 
 ### Criteria
 
