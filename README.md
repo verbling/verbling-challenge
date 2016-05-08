@@ -6,7 +6,7 @@
 
 Create a simple scrollable/searchable list where list items can be expanded and collapsed.
 
-- Item area should be scrollable with a fixed width of 200px and a height of 200px.
+- Item area should be scrollable with a fixed width of 400px and a height of 400px.
 - UI Should include an "Add" button that prompts user for input (can use `window.prompt`) and adds a new list item to the top of the list.
 - List items should have a height of 50px when closed, and a variable height that fits to item content when expanded.
 - When a list item is closed, the contained text should be truncated with an ellipsis. (ex: Truncat...)
